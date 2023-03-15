@@ -1,0 +1,32 @@
+# hide .aux
+*.aux
+
+# hide .log
+*.log
+
+# hide .out
+*.out
+
+# hide .toc
+*.toc
+
+# hide .bbl
+*.bbl
+
+# hide .lof
+*.lof
+
+#hide .ist
+*.ist
+
+#hide .glo
+*.glo
+
+#hide .fls
+*.fls
+
+#hide .fdb_latexmk
+*.fdb_latexmk
+
+#hide .synctex.gz
+*.synctex.gz

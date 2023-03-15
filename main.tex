@@ -1,0 +1,102 @@
+\documentclass[]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[portuges]{babel}
+\usepackage{graphicx, wrapfig}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{csquotes}
+\usepackage{url}
+\usepackage{indentfirst}
+\usepackage{tocbibind}
+\usepackage[toc]{glossaries}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{amsmath}
+
+
+
+
+\definecolor{NavyBlue}{RGB}{32,42,150}
+
+
+\makeglossaries
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=NavyBlue,
+    citecolor=NavyBlue,  
+    filecolor=NavyBlue,
+    urlcolor=cyan,
+    pdftitle={Super Bock Relatório}
+}
+
+
+\newglossaryentry{latex}
+{
+    name=latex,
+    description={Is a markup language specially suited 
+    for scientific documents}
+}
+
+\newglossaryentry{maths}
+{
+    name=mathematics,
+    description={Mathematics is what mathematicians do}
+}
+ 
+
+
+\newgeometry{
+    top=0.75in,
+    bottom=0.75in,
+    outer=1.5in,
+    inner=1.5in,
+}
+
+
+\title{
+    % \includegraphics{images/isep.jpg} \\
+    \vfill
+    \LARGE\bfseries Relatório de CORGA\\
+    \begin{figure}[h]
+    \centering
+    % \includegraphics[width=10cm]{images/logo-black.jpg}
+    % \label{fig:replaiLogo}
+    \end{figure}
+
+    \vfill
+    
+    }
+\author{
+    \large\bfseries Turma 3DJ  \\
+    1210824 \textunderscore\space Paulo Norton \\
+    1210822 \textunderscore\space Nuno Barbosa \\
+    1201239 \textunderscore\space Francisco Queiroz \\
+    1200720 \textunderscore\space Manuela Leite\\
+    }
+\date{\today}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+\begin{document}
+
+\maketitle
+
+
+\tableofcontents
+
+
+\appendix
+\bibliographystyle{plain}
+\listoffigures
+
+
+\hypertarget{glossary}{\printglossaries}
+
+
+\end{document}
