@@ -30,3 +30,6 @@
 
 #hide .synctex.gz
 *.synctex.gz
+
+#hide .blg
+*.blg
